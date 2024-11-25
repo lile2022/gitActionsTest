@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: echo env
+    - name: 测试环境变量
     - run: pwd
     - run: java -version
     - uses: actions/checkout@v4
