@@ -16,11 +16,11 @@ on:
 
 jobs:
   build:
-    name: '工程构建'
+    name: 工程构建
     runs-on: ubuntu-latest
 
     steps:
-    - name: 'echo env'
+    - name: echo env
     - run: pwd
     - run: java -version
     - uses: actions/checkout@v4
