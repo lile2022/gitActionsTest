@@ -8,6 +8,9 @@
 
 name: maven打包
 
+permissions:
+  contents: wirte
+
 on:
   push:
     branches: [ "main" ]
